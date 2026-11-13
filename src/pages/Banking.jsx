@@ -39,8 +39,8 @@ export const Banking = () => {
   return (
     <>
       <SEO
-        title="Bank of India CSP in Olpad | Kiosk ID: 11621960 | Account Opening &amp; AePS"
-        description="Official Bank of India Customer Service Point (CSP Kiosk ID: 11621960, Palod Branch Code: 002757) in Olpad, Surat. Instant biometric account opening, cash withdrawal, and money transfer."
+        title="Bank of India CSP in Pipodara | Kiosk ID: 11621960 | Account Opening &amp; AePS"
+        description="Official Bank of India Customer Service Point (CSP Kiosk ID: 11621960, Palod Branch Code: 002757) in Pipodara, Surat. Instant biometric account opening, cash withdrawal, and money transfer."
         path="/banking"
       />
 
@@ -56,7 +56,7 @@ export const Banking = () => {
             Bank of India Customer Service Point (CSP)
           </h1>
           <p className="mt-4 text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            Fast, secure, and hassle-free banking services right in your neighbourhood in Olpad, Surat.
+            Fast, secure, and hassle-free banking services right in your neighbourhood in Pipodara, Surat.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">

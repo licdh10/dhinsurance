@@ -30,8 +30,8 @@ export const Loans = () => {
   return (
     <>
       <SEO
-        title="Loan Assistance in Olpad | Home, Gold, Car &amp; Personal Loans"
-        description="Professional loan documentation and liaison assistance in Olpad, Surat for Home Loans, Gold Loans, Car Loans, and Personal Loans with leading banks."
+        title="Loan Assistance in Pipodara | Home, Gold, Car &amp; Personal Loans"
+        description="Professional loan documentation and liaison assistance in Pipodara, Surat for Home Loans, Gold Loans, Car Loans, and Personal Loans with leading banks."
         path="/loans"
       />
 

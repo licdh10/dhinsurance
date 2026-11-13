@@ -10,7 +10,7 @@ export const PrivacyPolicy = () => {
     <>
       <SEO
         title="Privacy Policy"
-        description="Privacy policy and data protection standards at DH Insurance &amp; Digital Service, Olpad, Surat."
+        description="Privacy policy and data protection standards at DH Insurance &amp; Digital Service, Pipodara, Surat."
         path="/privacy-policy"
       />
 

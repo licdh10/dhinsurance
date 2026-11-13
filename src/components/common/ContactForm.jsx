@@ -74,7 +74,7 @@ export const ContactForm = () => {
           Send Us an Enquiry
         </h3>
         <p className="text-sm text-slate-600 mt-1">
-          Fill out the details below. Our team in Olpad will contact you promptly.
+          Fill out the details below. Our team in Pipodara will contact you promptly.
         </p>
       </div>
 

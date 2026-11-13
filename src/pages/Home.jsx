@@ -15,7 +15,8 @@ import {
   Shield, 
   CreditCard,
   Users,
-  Award
+  Award,
+  MapPin
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { SEO } from '../components/common/SEO';
@@ -32,8 +33,8 @@ export const Home = () => {
   return (
     <>
       <SEO
-        title="Your Trusted Insurance &amp; Digital Service Centre in Olpad"
-        description="Insurance, Bank of India CSP (Kiosk ID: 11621960), Loan Assistance, and Citizen Digital Services Under One Roof in Olpad, Surat."
+        title="Your Trusted Insurance &amp; Digital Service Centre in Pipodara"
+        description="Insurance, Bank of India CSP (Kiosk ID: 11621960), Loan Assistance, and Citizen Digital Services Under One Roof in Pipodara 394110, Surat."
         path="/"
       />
 
@@ -67,7 +68,7 @@ export const Home = () => {
 
               {/* Supporting Text */}
               <p className="text-base sm:text-lg md:text-xl text-blue-100 max-w-2xl leading-relaxed">
-                Insurance, Banking, Loan Assistance and Digital Services Under One Roof in Olpad, Surat.
+                Insurance, Banking, Loan Assistance and Digital Services Under One Roof in Pipodara, Surat.
               </p>
 
               {/* CTAs: Call Now, WhatsApp, Explore Services */}
@@ -407,7 +408,7 @@ export const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Why Choose Us"
-            title="Trusted Financial &amp; Digital Partner in Olpad"
+            title="Trusted Financial &amp; Digital Partner in Pipodara"
             subtitle="We bridge the gap between complex banking &amp; insurance procedures and everyday citizens with speed, transparency, and personal care."
           />
 
@@ -448,7 +449,7 @@ export const Home = () => {
               </div>
               <h4 className="text-lg font-bold text-brand-navy mb-2">Local Community Trust</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Conveniently located in Olpad, Surat, offering genuine assistance to farmers, shopkeepers, salaried individuals, and families.
+                Conveniently located in Pipodara, Surat, offering genuine assistance to farmers, shopkeepers, salaried individuals, and families.
               </p>
             </div>
           </div>
@@ -541,7 +542,7 @@ export const Home = () => {
           <SectionHeading
             badge="Client Feedback"
             title="What Our Customers Say"
-            subtitle="Real experiences from residents and business owners in Olpad and Surat."
+            subtitle="Real experiences from residents and business owners in Pipodara and Surat."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -598,11 +599,20 @@ export const Home = () => {
               <SectionHeading
                 badge="Reach Out"
                 title="Visit or Contact Us Today"
-                subtitle="We are conveniently located in Olpad to attend to all your financial and document needs."
+                subtitle="We are conveniently located in Pipodara to attend to all your financial and document needs."
                 centered={false}
               />
 
               <div className="space-y-4 text-sm text-slate-700">
+                <div className="flex items-start gap-3 bg-brand-lightGrey p-4 rounded-xl border border-slate-200">
+                  <MapPin className="w-5 h-5 text-brand-royal shrink-0 mt-0.5" />
+                  <div>
+                    <p className="font-bold text-brand-navy">Office Address</p>
+                    <p className="mt-0.5 font-medium">{location.fullAddress}</p>
+                    <p className="text-xs text-brand-royal font-semibold mt-1 font-mono">Plus Code: {location.plusCode}</p>
+                  </div>
+                </div>
+
                 <div className="flex items-start gap-3 bg-brand-lightGrey p-4 rounded-xl border border-slate-200">
                   <Phone className="w-5 h-5 text-brand-royal shrink-0 mt-0.5" />
                   <div>

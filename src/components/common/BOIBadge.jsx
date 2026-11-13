@@ -36,7 +36,7 @@ export const BOIBadge = ({ variant = 'default', showDisclaimers = true }) => {
               {bankingCSP.bankName} Customer Service Point (CSP)
             </h3>
             <p className="text-blue-100 text-sm mt-1">
-              Providing doorstep financial inclusion &amp; banking services in Olpad.
+              Providing doorstep financial inclusion &amp; banking services in Pipodara.
             </p>
           </div>
         </div>

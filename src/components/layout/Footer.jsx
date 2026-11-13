@@ -36,7 +36,7 @@ export const Footer = () => {
             </Link>
             
             <p className="text-sm text-slate-400 leading-relaxed">
-              Your authorized multi-service financial and digital centre in Olpad, Surat. We provide trusted insurance advisory, Bank of India CSP banking, loan facilitation, and citizen services.
+              Your authorized multi-service financial and digital centre in Pipodara, Surat. We provide trusted insurance advisory, Bank of India CSP banking, loan facilitation, and citizen services.
             </p>
 
             {/* Micro CSP Badge */}
@@ -127,9 +127,19 @@ export const Footer = () => {
             
             <div className="flex items-start gap-3 text-sm">
               <MapPin className="w-5 h-5 text-brand-yellow shrink-0 mt-0.5" />
-              <p className="text-slate-400">
-                {location.locality}, Surat District, Gujarat, India.
-              </p>
+              <div className="text-slate-300">
+                <p className="font-semibold text-white">DH Insurance &amp; Digital Service</p>
+                <p className="text-slate-400 text-xs leading-relaxed mt-0.5">{location.fullAddress}</p>
+                <a
+                  href={location.directionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[11px] font-mono font-bold text-brand-yellow hover:underline mt-1.5"
+                >
+                  <span>Plus Code: {location.plusCode}</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
             </div>
 
             <div className="flex items-start gap-3 text-sm">

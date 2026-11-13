@@ -34,8 +34,8 @@ export const Printing = () => {
   return (
     <>
       <SEO
-        title="Xerox &amp; Digital Printing in Olpad | Passport Photos &amp; Colour Laser Prints"
-        description="High-speed Black &amp; White and Colour Xerox, digital laser printing, instant 5-minute passport size photos, lamination, and spiral binding in Olpad, Surat."
+        title="Xerox &amp; Digital Printing in Pipodara | Passport Photos &amp; Colour Laser Prints"
+        description="High-speed Black &amp; White and Colour Xerox, digital laser printing, instant 5-minute passport size photos, lamination, and spiral binding in Pipodara, Surat."
         path="/printing"
       />
 
@@ -47,10 +47,10 @@ export const Printing = () => {
             Quality Print &amp; Document Centre
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-            Xerox, Colour Printing &amp; Passport Photography in Olpad
+            Xerox, Colour Printing &amp; Passport Photography in Pipodara
           </h1>
           <p className="mt-4 text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            Equipped with commercial digital multi-function copiers, colour lasers, and instant photo studios. Send files on WhatsApp or visit us in Olpad.
+            Equipped with commercial digital multi-function copiers, colour lasers, and instant photo studios. Send files on WhatsApp or visit us in Pipodara.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ export const Printing = () => {
           <SectionHeading
             badge="Shop Equipment &amp; Facility"
             title="Professional Equipment Infrastructure"
-            subtitle="Our storefront in Olpad is equipped with dedicated multi-function laser copiers, studio lighting, and biometric hardware for swift execution."
+            subtitle="Our storefront in Pipodara is equipped with dedicated multi-function laser copiers, studio lighting, and biometric hardware for swift execution."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -9,7 +9,7 @@ export const businessConfig = {
   tagline: "Your Trusted Insurance & Digital Service Centre",
   subheadline: "Insurance, Banking, Loan Assistance and Digital Services Under One Roof.",
   description:
-    "DH Insurance & Digital Service is Olpad’s premier multi-service centre providing professional insurance advisory, Bank of India CSP kiosk banking, loan documentation assistance, government citizen services, and high-quality digital printing.",
+    "DH Insurance & Digital Service is Pipodara’s premier multi-service centre providing professional insurance advisory, Bank of India CSP kiosk banking, loan documentation assistance, government citizen services, and high-quality digital printing.",
 
   contacts: {
     primaryPhone: "+91 8401377466",
@@ -34,15 +34,27 @@ export const businessConfig = {
   },
 
   location: {
-    locality: "Olpad",
+    locality: "Pipodara",
     city: "Surat",
+    district: "Surat",
     state: "Gujarat",
     country: "India",
-    addressPlaceholder: "Main Market Road, Olpad, District Surat, Gujarat - 394540 (Exact street address will be updated shortly)",
-    fullAddress: "Olpad, Surat, Gujarat, India",
+    pincode: "394110",
+    addressLine1: "1st Floor, Shop no 5 Sagar complex",
+    addressLine2: "Silver Hub Industrial, Pipodara 394110",
+    fullAddress: "1st Floor, Shop no 5 Sagar complex, Silver Hub Industrial, Pipodara 394110",
+    addressPlaceholder: "1st Floor, Shop no 5 Sagar complex, Silver Hub Industrial, Pipodara 394110",
+    plusCode: "9X77+QH Pipodara, Gujarat",
+    plusCodeShort: "9X77+QH",
+    fullPlusCode: "7JHJ9X77+QH",
+    coordinates: {
+      lat: 21.364438,
+      lng: 72.963938,
+    },
     googleMapsEmbedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59483.56834169992!2d72.7169429443207!3d21.332306941196434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f4a3e9c60e5%3A0xe5a3eb42ca142d76!2sOlpad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-    directionsUrl: "https://maps.google.com/?q=Olpad,+Surat,+Gujarat",
+      "https://maps.google.com/maps?q=9X77%2BQH+Pipodara%2C+Gujarat&t=&z=16&ie=UTF8&iwloc=&output=embed",
+    directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=9X77%2BQH+Pipodara%2C+Gujarat",
+    mapsSearchUrl: "https://www.google.com/maps/search/?api=1&query=9X77%2BQH+Pipodara%2C+Gujarat",
     googleBusinessProfile: "https://www.google.com/business/",
   },
 
@@ -61,9 +73,9 @@ export const businessConfig = {
 
   seo: {
     siteUrl: "https://dh-insurance.pages.dev",
-    defaultTitle: "DH Insurance & Digital Service | Bank of India CSP in Olpad, Surat",
+    defaultTitle: "DH Insurance & Digital Service | Bank of India CSP in Pipodara, Surat",
     defaultDescription:
-      "Authorized Bank of India CSP (Kiosk ID: 11621960), Life, Health, Vehicle Insurance, Loan Assistance & Citizen Digital Services in Olpad, Surat.",
+      "Authorized Bank of India CSP (Kiosk ID: 11621960), Life, Health, Vehicle Insurance, Loan Assistance & Citizen Digital Services in Pipodara 394110, Surat.",
   },
 
   disclaimers: {
@@ -154,7 +166,7 @@ export const businessConfig = {
             title: "Medical Insurance Assistance",
             subtitle: "End-to-end policy guidance & claim support",
             desc: "Personalized assistance in selecting the optimal policy, decoding waiting periods, understanding network hospitals, and hassle-free claim filing.",
-            features: ["Expert policy comparison", "Claim paperwork assistance", "Guidance on pre-existing diseases", "Local Olpad support"],
+            features: ["Expert policy comparison", "Claim paperwork assistance", "Guidance on pre-existing diseases", "Local Pipodara support"],
           },
         ],
       },
@@ -406,7 +418,7 @@ export const businessConfig = {
 
   faqs: [
     {
-      question: "What banking services are provided at the Bank of India CSP in Olpad?",
+      question: "What banking services are provided at the Bank of India CSP in Pipodara?",
       answer:
         "At our authorized Bank of India CSP (Kiosk ID: 11621960, Palod Branch Code: 002757), customers can open new savings accounts using biometric e-KYC, withdraw cash up to daily permissible limits via AePS and ATM cards, transfer money across India, check account balance, enrol in government schemes like PMJJBY, PMSBY, and Atal Pension Yojana, and receive loan documentation guidance.",
     },
@@ -445,7 +457,7 @@ export const businessConfig = {
   testimonials: [
     {
       name: "Rameshbhai Patel",
-      location: "Olpad, Surat",
+      location: "Pipodara, Surat",
       rating: 5,
       comment:
         "Very trustworthy service centre! I opened a Bank of India savings account with biometric KYC in 15 minutes. The staff is polite, helpful, and transparent.",
@@ -453,7 +465,7 @@ export const businessConfig = {
     },
     {
       name: "Dharmesh Shah",
-      location: "Olpad",
+      location: "Pipodara",
       rating: 5,
       comment:
         "Got my car insurance renewed immediately via WhatsApp at the best premium. Received the official policy copy on my phone without having to run around.",

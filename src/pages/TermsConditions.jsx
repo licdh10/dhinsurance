@@ -10,7 +10,7 @@ export const TermsConditions = () => {
     <>
       <SEO
         title="Terms and Conditions"
-        description="Terms and conditions for utilizing advisory and services at DH Insurance &amp; Digital Service, Olpad, Surat."
+        description="Terms and conditions for utilizing advisory and services at DH Insurance &amp; Digital Service, Pipodara, Surat."
         path="/terms-and-conditions"
       />
 

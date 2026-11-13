@@ -33,8 +33,8 @@ export const Insurance = () => {
   return (
     <>
       <SEO
-        title="Insurance Services in Olpad | Life, Health, Vehicle &amp; Term Insurance"
-        description="Comprehensive insurance advisory in Olpad, Surat: Life &amp; Term Insurance, Cashless Health Floater, Personal Accident, and instant 5-minute Bike and Car insurance."
+        title="Insurance Services in Pipodara | Life, Health, Vehicle &amp; Term Insurance"
+        description="Comprehensive insurance advisory in Pipodara, Surat: Life &amp; Term Insurance, Cashless Health Floater, Personal Accident, and instant 5-minute Bike and Car insurance."
         path="/insurance"
       />
 
@@ -46,7 +46,7 @@ export const Insurance = () => {
             Protect What You Cherish
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-            Complete Insurance Solutions in Olpad
+            Complete Insurance Solutions in Pipodara
           </h1>
           <p className="mt-4 text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
             From life protection and cashless health hospitalization to instant 5-minute two-wheeler and four-wheeler insurance.

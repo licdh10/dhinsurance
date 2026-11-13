@@ -24,8 +24,8 @@ export const About = () => {
   return (
     <>
       <SEO
-        title="About Us | Dedicated Financial &amp; Digital Service Centre in Olpad"
-        description="Learn about DH Insurance &amp; Digital Service in Olpad, Surat. Authorized Bank of India CSP (Kiosk ID: 11621960), dedicated LIC advisory, and community citizen support."
+        title="About Us | Dedicated Financial &amp; Digital Service Centre in Pipodara"
+        description="Learn about DH Insurance &amp; Digital Service in Pipodara, Surat. Authorized Bank of India CSP (Kiosk ID: 11621960), dedicated LIC advisory, and community citizen support."
         path="/about"
       />
 
@@ -40,7 +40,7 @@ export const About = () => {
             Committed to Honest Service &amp; Community Empowerment
           </h1>
           <p className="mt-4 text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            Providing accessible banking, reliable insurance advisory, loan documentation, and citizen digital services under one friendly roof in Olpad, Surat.
+            Providing accessible banking, reliable insurance advisory, loan documentation, and citizen digital services under one friendly roof in Pipodara, Surat.
           </p>
         </div>
       </section>
@@ -56,7 +56,7 @@ export const About = () => {
                 <div className="relative z-10">
                   <div className="inline-flex items-center gap-2 bg-brand-yellow text-brand-navy px-3 py-1 rounded-full text-xs font-bold mb-4">
                     <MapPin className="w-3.5 h-3.5" />
-                    <span>Olpad, Surat, Gujarat</span>
+                    <span>Pipodara, Surat, Gujarat</span>
                   </div>
                   <h3 className="text-2xl font-bold tracking-tight text-white mb-2">
                     DH Insurance &amp; Digital Service Centre
@@ -108,13 +108,13 @@ export const About = () => {
               <SectionHeading
                 badge="Who We Are"
                 title="Your Local Neighbourhood Financial &amp; Digital Bridge"
-                subtitle="Founded to solve the everyday documentation and banking challenges faced by citizens and small enterprises in Olpad and neighboring villages."
+                subtitle="Founded to solve the everyday documentation and banking challenges faced by citizens and small enterprises in Pipodara and neighboring villages."
                 centered={false}
               />
 
               <div className="text-slate-700 space-y-4 text-base leading-relaxed">
                 <p>
-                  <strong>DH Insurance &amp; Digital Service</strong> was established with a clear, singular purpose: to bring essential financial, banking, and government citizen services directly to the residents of Olpad and the surrounding areas of Surat district, eliminating the need for long commutes or complicated bureaucratic delays.
+                  <strong>DH Insurance &amp; Digital Service</strong> was established with a clear, singular purpose: to bring essential financial, banking, and government citizen services directly to the residents of Pipodara and the surrounding areas of Surat district, eliminating the need for long commutes or complicated bureaucratic delays.
                 </p>
                 <p>
                   As an authorized <strong>Bank of India Customer Service Point (CSP)</strong> operating under the jurisdiction of the Palod branch (Kiosk ID: 11621960), we facilitate formal financial inclusion. Local residents, farmers, shopkeepers, and students can open bank accounts with instant biometric e-KYC, withdraw or transfer money securely, and access social security schemes without standing in lengthy bank queues.
@@ -158,7 +158,7 @@ export const About = () => {
                 </div>
                 <h3 className="text-xl font-bold text-brand-navy mb-3">Our Mission</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  To provide accessible, transparent, and prompt financial and digital documentation services to every individual and household in Olpad, enabling financial security and digital empowerment.
+                  To provide accessible, transparent, and prompt financial and digital documentation services to every individual and household in Pipodara, enabling financial security and digital empowerment.
                 </p>
               </div>
               <ul className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-700 space-y-2">
@@ -181,7 +181,7 @@ export const About = () => {
                 </div>
                 <h3 className="text-xl font-bold text-brand-navy mb-3">Our Vision</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  To be recognized as the most dependable and customer-centric single-window service hub in the Olpad-Surat region, synonymous with integrity, speed, and genuine community support.
+                  To be recognized as the most dependable and customer-centric single-window service hub in the Pipodara-Surat region, synonymous with integrity, speed, and genuine community support.
                 </p>
               </div>
               <ul className="mt-6 pt-4 border-t border-slate-100 text-xs text-slate-700 space-y-2">
@@ -234,7 +234,7 @@ export const About = () => {
                 How We Assist You Every Step of the Way
               </h2>
               <p className="text-blue-100 text-sm sm:text-base leading-relaxed">
-                Whether you walk into our centre in Olpad or message us on WhatsApp, we take the time to understand your specific requirement, review your documents for errors before submission, and provide transparent updates until your work is finished.
+                Whether you walk into our centre in Pipodara or message us on WhatsApp, we take the time to understand your specific requirement, review your documents for errors before submission, and provide transparent updates until your work is finished.
               </p>
 
               <div className="pt-4 flex flex-wrap gap-4">

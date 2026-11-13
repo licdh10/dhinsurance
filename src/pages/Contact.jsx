@@ -22,8 +22,8 @@ export const Contact = () => {
   return (
     <>
       <SEO
-        title="Contact Us | DH Insurance &amp; Digital Service in Olpad, Surat"
-        description="Get in touch with DH Insurance &amp; Digital Service in Olpad, Surat. Call +91 8401377466, chat on WhatsApp, or visit our Bank of India CSP centre (Kiosk ID: 11621960)."
+        title="Contact Us | DH Insurance &amp; Digital Service in Pipodara, Surat"
+        description="Get in touch with DH Insurance &amp; Digital Service in Pipodara, Surat. Call +91 8401377466, chat on WhatsApp, or visit our Bank of India CSP centre (Kiosk ID: 11621960)."
         path="/contact"
       />
 
@@ -122,8 +122,16 @@ export const Contact = () => {
                 <div className="pt-2 border-t border-slate-100 text-sm text-slate-600 space-y-3">
                   <p className="leading-relaxed">
                     <strong>DH Insurance &amp; Digital Service</strong><br />
-                    {location.addressPlaceholder}
+                    {location.fullAddress}
                   </p>
+
+                  <div className="flex items-center gap-2 p-2.5 rounded-lg bg-blue-50 border border-blue-100 text-xs">
+                    <MapPin className="w-4 h-4 text-brand-royal shrink-0" />
+                    <div>
+                      <span className="text-slate-500 block text-[11px]">Plus Code:</span>
+                      <strong className="font-mono text-brand-navy">{location.plusCode}</strong>
+                    </div>
+                  </div>
 
                   <div className="flex items-start gap-2.5 pt-2 border-t border-slate-100 text-xs">
                     <Clock className="w-4 h-4 text-brand-royal shrink-0 mt-0.5" />
@@ -170,42 +178,6 @@ export const Contact = () => {
               <ContactForm />
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* Google Maps Embed Section (Centered on Olpad, Gujarat) */}
-      <section className="py-12 bg-white border-t border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-card">
-            <div className="p-4 bg-brand-navy text-white flex flex-col sm:flex-row items-center justify-between gap-2 text-xs">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-brand-yellow" />
-                <span className="font-bold">Location Map: Olpad, Surat, Gujarat</span>
-              </div>
-              <a
-                href={location.directionsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand-yellow font-bold hover:underline flex items-center gap-1"
-              >
-                <span>Open in Google Maps Application</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
-
-            <div className="w-full h-80 sm:h-96 bg-slate-100">
-              <iframe
-                title="DH Insurance & Digital Service Location Map"
-                src={location.googleMapsEmbedUrl}
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
           </div>
         </div>
       </section>

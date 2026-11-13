@@ -18,7 +18,7 @@ A professional, high-performance, responsive multi-page business website built f
   - Kiosk ID: `11621960`
   - Branch: `Palod`
   - Branch Code: `002757`
-- **Location:** Olpad, Surat District, Gujarat, India
+- **Location:** Pipodara, Surat District, Gujarat, India
 
 ---
 
@@ -157,18 +157,18 @@ When you push this repository to GitHub/GitLab and link it in the Cloudflare Das
 
 ## 🔍 SEO & Local Search Optimization
 
-The website includes dedicated on-page SEO targeting key Olpad/Surat search queries:
-- *Insurance Agency in Olpad*
-- *Bike Insurance in Olpad*
-- *Car Insurance in Olpad*
-- *Life Insurance Assistance in Olpad*
-- *Health Insurance in Olpad*
-- *Bank of India CSP in Olpad*
-- *Bank Account Opening Assistance in Olpad*
-- *Xerox Shop in Olpad*
-- *Digital Services in Olpad*
-- *PAN Card Assistance in Olpad*
-- *ITR Filing Assistance in Olpad*
+The website includes dedicated on-page SEO targeting key Pipodara/Surat search queries:
+- *Insurance Agency in Pipodara*
+- *Bike Insurance in Pipodara*
+- *Car Insurance in Pipodara*
+- *Life Insurance Assistance in Pipodara*
+- *Health Insurance in Pipodara*
+- *Bank of India CSP in Pipodara*
+- *Bank Account Opening Assistance in Pipodara*
+- *Xerox Shop in Pipodara*
+- *Digital Services in Pipodara*
+- *PAN Card Assistance in Pipodara*
+- *ITR Filing Assistance in Pipodara*
 
 ### Local Business Schema Markup
 An official `FinancialService` structured data markup (`application/ld+json`) is embedded in `index.html` detailing:

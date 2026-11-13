@@ -40,8 +40,8 @@ export const DigitalServices = () => {
   return (
     <>
       <SEO
-        title="Citizen Digital Services in Olpad | PAN Card, ITR, Udyam MSME &amp; PF"
-        description="Fast, reliable citizen documentation assistance in Olpad, Surat: PAN Card applications, Aadhaar assistance, ITR return filing, Udyam MSME, E-Shram, and FSSAI licenses."
+        title="Citizen Digital Services in Pipodara | PAN Card, ITR, Udyam MSME &amp; PF"
+        description="Fast, reliable citizen documentation assistance in Pipodara, Surat: PAN Card applications, Aadhaar assistance, ITR return filing, Udyam MSME, E-Shram, and FSSAI licenses."
         path="/digital-services"
       />
 
@@ -53,7 +53,7 @@ export const DigitalServices = () => {
             Digital Citizen Services
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-            Government &amp; Digital Online Services in Olpad
+            Government &amp; Digital Online Services in Pipodara
           </h1>
           <p className="mt-4 text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
             Eliminate paperwork headaches. We help you apply for PAN cards, file Income Tax returns, register MSME businesses, and manage EPFO claims with accurate documentation.
